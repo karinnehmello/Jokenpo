@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(137, 10, 255, 0.726);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.jogadores {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.btn_voltar {
+    width: 100%;
+    background-color: #070101;
+    transition: 1s;
+}
+
+.btn_voltar:hover {
+    background-color:  rgba(137, 10, 255, 0.726);;
+}
+
+.placar {
+    display: flex;
+    justify-content: space-evenly;
+    border: 9px solid #070101;
+    font-size: 50px;
+}
+
+.tituloPlacar {
+    background-color: #070101;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.jogar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.jogar button {
+    background-color: aliceblue;
+}
+
+.escolhas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.escolhas h2 {
+    color: #070101;
+    font-size: 30px;
+}
+
+
+.espaco {
+    background-color: #070101;
+    color: #070101;
+}

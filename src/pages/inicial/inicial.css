@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(168, 11, 98);
+    display: flex;
+    justify-content: center;
+    line-height: 2cm;
+}
+
+.titulo {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.btn_jogar {
+    width: 100%;
+    transition: 1.2s;
+}
+
+.btn_jogar:hover {
+    background-color: rgba(137, 10, 255, 0.726);
+    color: black;
+    font-weight: bold;
+}
+
